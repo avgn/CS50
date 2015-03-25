@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(void)
+{
+    float change;
+    printf("O hai! How much change is owed?\n");
+}

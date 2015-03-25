@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Height: ");
+    int height;
+    scanf("%d", &height);
+    int i = 1;
+    while (i < height)
+      {
+          for (int j = height - i; j > 0; j--)
+	    {
+                printf(" ");
+            }
+          for (int p = i; p > 0; p--)
+            {
+                printf("#");
+            }
+          printf("\n");
+          i++;
+      }
+}

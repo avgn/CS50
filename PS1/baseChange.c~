@@ -1,0 +1,11 @@
+/**
+ * baseChange.c
+ * 
+ * A. Vigano
+ * viga90@gmail.com
+ *
+ * Converts a positive integer to another base
+ */
+
+#include <stdio.h>
+
